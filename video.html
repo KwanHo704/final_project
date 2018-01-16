@@ -90,7 +90,7 @@
 				
 				}
 			);
-
+			backtop();
 		}
 		
 			function prevPage(){
@@ -129,7 +129,7 @@
 				
 				}
 			);
-			
+			backtop();
 		}
 			
 		function getdata(item){
@@ -184,6 +184,13 @@
 			
 			 $('html,body').animate({
         scrollTop: $("#playing").offset().top},
+        'slow');
+		}
+		
+		function backtop(){
+			
+			 $('html,body').animate({
+        scrollTop: $("#search_input").offset().top},
         'slow');
 		}
 		
