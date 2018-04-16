@@ -309,7 +309,8 @@
 		<!--load fb news-->
 		function CallData(x){
 		var xmlhttp = new XMLHttpRequest();
-		var url = 'https://graph.facebook.com/'+x+'/posts?access_token=1543275045740204|f-WLuHSS2j0Bv7SvvvBa-lE7V6k&fields=message,full_picture,likes.limit(1).summary(1),link&limit=8';
+		var url = 'https://graph.facebook.com/'+x+'/posts?access_token=EAAV7mbjkXqwBAEyj9NAXq1IHFZCKXWT5ZAWpzANgGsO6zZA2gmmzqe6PXtjhbHyzXvoV8tp9ISe8tHmoGj3CywVZAMJfdwwXcbeZBrHC5NmAkUr5aihtirsxZC37Os3540VgXekhx5IYCcFlc0IHb2fkHL0ZCTj6lGFB1ZC2xZBxjyNo3yWxXJUjrrE6pXmQnp20ZD
+&fields=message,full_picture,likes.limit(1).summary(1),link&limit=8';
 
 		xmlhttp.onreadystatechange = function() {
 		if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
